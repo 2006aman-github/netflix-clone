@@ -1,0 +1,15 @@
+.row__posters{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.poster__image{
+    /* max-width: 200px;
+    max-height: 250px; */
+    object-fit: contain;
+    margin: 5px;
+    transition: .5s;
+}
