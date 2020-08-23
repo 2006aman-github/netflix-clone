@@ -3,7 +3,8 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Row from './components/Row';
-import requests from './requests'
+import requests from './requests';
+import Banner from 'components/Banner';
 
 function App() {
   return (
