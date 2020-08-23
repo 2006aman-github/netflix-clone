@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       
       {/* banner        */}
-
+      <Banner />
       {/* movie lists  */}
       <Row title="NETFLIX ORIGINALS" fetchURL={requests.fetchNetflixOriginals}/>
       <Row title="TRENDING NOW" fetchURL = {requests.fetchTrending}/>
